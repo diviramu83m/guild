@@ -5,7 +5,7 @@ It includes a Python-based ETL pipeline, reproducible SQL models, and validation
 
 ---
 
-## 1 Setup
+## 1. Setup
 
 ```bash
 cd ~/Projects
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ---
 
-## 2 Run the ETL Pipeline
+## 2. Run the ETL Pipeline
 The ETL pipeline accepts either an S3 URI or a local file path as input, automatically downloading S3 files using Boto3 before processing.
 
 ```bash
@@ -65,7 +65,7 @@ The ETL pipeline implemented in `src/main.py` and `src/transform.py` transforms 
 This implementation fulfills **Deliverable #2 – Implement a program that transforms the input data into a form usable by the data model.**
 
 ---
-## 3 Validation Queries (DuckDB)
+## 3. Validation Queries (DuckDB)
 
 After generating outputs, you can validate the model using DuckDB from the terminal.  
 Each query auto-registers CSVs from `./output/` as tables and prints the results.
@@ -99,7 +99,7 @@ To view all genres per year, simply remove the `WHERE rn = 1` filter.
 
 ---
 
-## 4 Control the Number of Rows Displayed
+## 4. Control the Number of Rows Displayed
 
 `run_query.py` supports the `--limit` argument:
 
@@ -116,7 +116,7 @@ python src/run_query.py sql/revenue_by_genre_by_year.sql --limit 0
 
 ---
 
-## 5 Documentation
+## 5. Documentation
 
 - `docs/data_model.md` – table definitions and modeling decisions  
 - `docs/erd.png` – Entity-Relationship Diagram  
@@ -124,7 +124,7 @@ python src/run_query.py sql/revenue_by_genre_by_year.sql --limit 0
 
 ---
 
-## 6 Deliverables
+## 6. Deliverables
 
 ```
 src/
