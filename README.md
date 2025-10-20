@@ -26,8 +26,8 @@ The ETL pipeline accepts either an S3 URI or a local file path as input, automat
 python src/main.py s3://com.guild.us-west-2.public-data/project-data/the-movies-dataset.zip \
   --out ./output --log ./error.log
 
-> Alternatively, you can provide a local file path:
-> Ensure `the-movies-dataset.zip` is placed in the **project root** (same folder as `src/`, `sql/`, `docs/`).
+### Alternatively, you can provide a local file path:
+### Ensure `the-movies-dataset.zip` is placed in the **project root** (same folder as `src/`, `sql/`, `docs/`).
 
 python src/main.py the-movies-dataset.zip --out ./output --log ./error.log
 
