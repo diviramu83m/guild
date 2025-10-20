@@ -1,0 +1,10 @@
+2025-10-19 20:20:26,708 INFO Found credentials in shared credentials file: ~/.aws/credentials
+2025-10-19 20:20:26,779 INFO Downloading s3://com.guild.us-west-2.public-data/project-data/the-movies-dataset.zip to /var/folders/__/jcx2dv192_37mr714xl2zkmm0000gp/T/tmp50v0m9ck.zip
+2025-10-19 20:20:44,626 INFO Reading zip: /var/folders/__/jcx2dv192_37mr714xl2zkmm0000gp/T/tmp50v0m9ck.zip
+2025-10-19 20:20:45,912 INFO Wrote ./output/tblMovie.csv (45433 rows)
+2025-10-19 20:20:45,913 INFO Wrote ./output/tblGenre.csv (20 rows)
+2025-10-19 20:20:45,926 INFO Wrote ./output/tblCompany.csv (23128 rows)
+2025-10-19 20:20:45,957 INFO Wrote ./output/tblMovieGenres.csv (91014 rows)
+2025-10-19 20:20:45,983 INFO Wrote ./output/tblMovieCompanies.csv (68436 rows)
+2025-10-19 20:20:46,057 INFO Wrote ./output/tblMovieMetrics.csv (45463 rows)
+2025-10-19 20:20:46,069 INFO Pipeline completed successfully.
